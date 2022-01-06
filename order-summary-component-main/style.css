@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Imperial+Script&family=Lexend+Deca:wght@100&family=Poppins:wght@200&family=Red+Hat+Display:wght@300;800&family=Vujahday+Script&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: hsl(225, 100%, 94%);
+    }
+    #container{
+      display: flex;
+      justify-content: center;
+    }
+    .contaier-wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      background-color: #fff;
+      width: 30%;
+      border-radius: 20px;
+      box-shadow: 1px 10px 10px rgba(170, 170, 170, 0.4);
+    }
+    
+    
+    .image{
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      width: 100%;
+    }
+
+    /* Heading of card */
+    .heading-wrapper{
+      margin-top: 30px;
+      width: 65%;
+    }
+    .heading,
+    .heading-text{
+      text-align: center;
+    }
+    .heading{
+      font-size: 20px;
+      font-weight: 900;
+      font-family: 'Red Hat Display', sans-serif;
+    }
+    .heading-text{
+      margin-top: 20px;
+      font-size: 16px;
+      font-family: 'Red Hat Display', sans-serif;
+    }
+    /* border area */
+    .border-wrapper{
+      margin: 20px 0;
+      background-color: hsl(225, 100%, 98%);
+      height: 6em;
+      width: 80%;
+      border-radius: 20px;
+    }
+    .border-logo-text{
+      padding-top: 26px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .icon-text{
+      display: flex;
+    }
+    .span{
+      display: block;
+      margin-left: 10px;
+    }
+    .span1{
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+    .span2{
+      color: hsl(224, 23%, 55%);
+    }
+    .change{
+      margin-top: 4px;
+      transition: color 0.5s ease-out;
+    }
+    .change:hover{
+      color: rgba(56, 41, 224, 0.6);
+      text-decoration: none;
+    }
+    /* footer button */
+    .footer-wrapper{
+      margin-top: 17px;
+      margin-bottom: 30px;
+    }
+    .footer-button{
+      background-color: hsl(245, 75%, 52%);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      height: 45px;
+      width: 17em;
+      margin-bottom: 20px;
+      box-shadow: 1px 10px 10px rgba(170, 170, 170, 0.4);
+      transition: background 0.5s ease-in-out;
+    }
+    @media(min-width: 1000px){
+      .footer-button{
+        width: 24em;
+      }
+    }
+    @media(max-width: 850px){
+      .contaier-wrapper{
+        width: 50%;
+      }
+    }
+    .footer-button:hover{
+      background-color: rgba(56, 41, 224, 0.6);
+    }
+    .cancel{
+      text-decoration: none;
+      color: hsl(224, 23%, 55%);
+      display: block;
+      text-align: center;
+      transition: color 0.2s ease-in;
+    }
+    .cancel:hover{
+      color: #000;
+    }
+    @media(max-width: 375px){
+      .contaier-wrapper{
+        width: 90%;
+      }
+      .footer-button{
+        width: 18em;
+      }
+      
+    }
